@@ -1,69 +1,59 @@
-Intelligent Exam Proctoring Agent Using Logical Reasoning
-Overview
+# **Intelligent Exam Proctoring Agent Using Logical Reasoning**
 
-This project implements a utility-based intelligent agent for online exam monitoring in a simulated environment.
-The agent observes exam-related behaviours, reasons using logical rules and utility values, and produces explainable risk assessments to assist human invigilators.
+## **About the Project**
 
-The system focuses on decision making under uncertainty rather than automatic punishment or real-time surveillance.
+This project presents a **utility-based intelligent agent** designed to assist **online exam invigilation** in a **simulated environment**.
+Instead of making rigid yes/no decisions, the agent observes exam-related behaviours, reasons using **logical rules combined with utility values**, and produces **clear, explainable risk assessments** to support **human decision-making**.
 
-Key Features
+The focus of the project is on **reasoning under uncertainty**, **transparent decision processes**, and the practical application of **core Artificial Intelligence concepts**.
 
-Utility-based intelligent agent design
+---
 
-Rule-based logical reasoning
+## **What the Agent Does**
 
-Handling of uncertain and partial observations
+* Observes **simulated online exam behaviour**
+* Evaluates multiple behavioural cues using **logical reasoning**
+* Handles **partial and uncertain observations**
+* Assigns a **risk level with a confidence score**
+* Explains **why** a particular decision was made
 
-Explainable decision output (risk level + reasons)
+The system functions as a **decision-support tool**, not an automated enforcement mechanism.
 
-Streamlit-based interactive interface for demonstration
+---
 
-Agent Architecture (PEAS)
+## **Agent Design (PEAS Framework)**
 
-Environment: Simulated online examination setting
+* **Environment:** Simulated online examination setting
+* **Percepts:** Tab switches, head movements, inactivity time, multiple face detection
+* **Reasoning:** **Rule-based logic** with **utility-based evaluation**
+* **Actions:** Ignore behaviour, flag for review, or alert an invigilator with explanation
 
-Percepts: Tab switches, head movement, inactivity time, multiple face detection
+---
 
-Reasoning: Rule-based logic with utility weighting
+## **Technologies Used**
 
-Actions: Ignore, Flag for review, Alert invigilator with explanation
+* **Python**
+* **Streamlit** (for interactive demonstration)
+* **Git and GitHub**
 
-Technologies Used
+---
 
-Python
+## **Current Status**
 
-Streamlit
+* **Intelligent agent architecture** designed
+* **Utility-based reasoning engine** implemented
+* **Explanation module** completed
+* **Streamlit interface** available for demonstration
 
-Git & GitHub
+---
 
-How It Works
+## **Purpose**
 
-The agent perceives simulated exam behaviour as input
+This project is developed for **academic learning** to demonstrate key AI principles such as **intelligent agents**, **logical reasoning**, **utility-based decision making**, **handling uncertainty**, and **explainable AI**.
 
-Logical rules evaluate individual behaviours
+---
 
-Utility values are assigned to each behaviour
+## **Author**
 
-A risk score is computed by combining utilities
+**Machineni Bhavana**
 
-The agent selects an appropriate action
-
-The decision is explained in human-readable form
-
-Project Status
-
-Core intelligent agent logic implemented
-
-Utility-based reasoning engine completed
-
-Explanation module implemented
-
-Streamlit interface added for demonstration
-
-Note
-
-This project is simulation-based and developed for academic learning purposes to demonstrate Artificial Intelligence concepts such as intelligent agents, logical reasoning, uncertainty handling, and explainable AI.
-
-Author
-
-Machineni Bhavana
